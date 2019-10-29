@@ -5,9 +5,9 @@
    Tutorial 5
    Review Assignment
    
-   Author:   
-   Date:     
-   
+  Author:  Audrey Sparks  
+   Date:   October 29 ,2019  
+
    Filename: tf_print2.css
 
    This file contains the printer styles used with the Trusted
@@ -18,15 +18,23 @@
 
 
 /* Hidden Objects */
-
+li, ul, h1, section#left, footer{
+   display: none;
+}
 
 
 /* Page Box Styles */
-
+@page{
+   size: 8.5in 11in;
+   margin: .5in;
+}
 
 
 /* Header Styles */
-
+img#logo{
+   display: block;
+   width: 100%
+}
 
 
 /* Typography Styles */
